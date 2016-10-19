@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="publico/img/ico.png">
+  <title>tenda virtual | ropa interior | medellin - antioquia | ropa</title>
+
+<!--css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="publico/lib/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="publico/main.css">
+
+<!--script-->
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+  <script type="text/javascript" src="publico/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="publico/lib/materialize.min.js"></script>
+  <script type="text/javascript" src="publico/lib/angular.js"></script>
+  <script type="text/javascript" src="publico/lib/angular-ui-router.js"></script>
+
+<!--mis script-->
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="componentes/home/home.router.js"></script>
+  <script type="text/javascript" src="componentes/home/home.controller.js"></script>
+
+</head>
+
+<body ng-app="app">
+  <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <img class="background" src="publico/img/fondos/frutas-filtro.jpg">
+      <a href="#!"><span class="white-text font-size-20px name">Dulce piña</span></a>
+      <a href="mailto:dulcepinastore@gmail.com"><span class="white-text email">dulcepinastore@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="btn-menu fondo-agua button-collapse btn-floating btn-large waves-effect waves-light"><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+  <div class="carousel carousel-slider center" data-indicators="true" style="height: 531px;">
+    <div class="carousel-fixed-item center">
+      <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
+    <div class="carousel-item fondo-col-logo white-text fondo-banner1" href="#one!">
+      <h2></h2>
+      <p class="white-text"></p>
+    </div>
+    <div class="carousel-item white-text fondo-banner2" href="#two!">
+      <h2></h2>
+      <p class="white-text"></p>
+    </div>
+    <div class="carousel-item amber white-text" href="#three!">
+      <div class="container top-156px row ancho-85">
+        <div class="col s6">
+          <h2 class="font-size-30px">Ponte en contacto con nosotros!</h2>
+          <p class="white-text font-size-17px">
+            Estamos con los mejores precios del mercado
+          </p>
+          <a class="waves-effect waves-light btn">Contactar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+        </div>
+        <div class="col s6">
+          <h2 class="font-size-30px">Nuestro tres ingrediestes</h2>
+          <ul class="slogan">
+            <li class="waves-effect waves-light btn-large purple">BUENO</li>
+            <li class="waves-effect waves-light btn-large blue">BONITO</li>
+            <li class="waves-effect waves-light btn-large pink">BARATO</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div ui-view></div><!--vista angular-->
+
+  <footer class="page-footer fondo-agua">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Ponte en contacto con nosotros</h5>
+          <p class="grey-text text-lighten-4">somos una empresa dedicada a la venta y comercialización de ropa femenina en la ciudad de Medellín, Escribenos y te daremos respuesta lo mas pronto posible.</p>
+<!--formulario-->
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="input_text" type="text">
+                  <label for="input_text" class="white-text">Nombre</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="input_correo" type="text">
+                  <label for="input_correo" class="white-text">Correo</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1" class="white-text">Mensaje</label>
+                </div>
+              </div>
+              <button type="" class="waves-effect waves-light btn red">Enviar <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+          </div>
+<!--formulario-->
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Nuestras redes sociales</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus-square" aria-hidden="true"></i> Gmail</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2016 Copyright Dulce piña store | <a class="white-text" href="https://nodebit.tumblr.com" target="danielpage">Diseño y Desarrollo por <strong>Daniel Arango</strong></a>
+        <a class="grey-text text-lighten-4 right" href="mailto:dulcepinastore@gmail.com"><strong>dulcepinastore@gmail.com</strong></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.5.0/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.0.7
+[debug] Platform:     darwin
+[debug] Node Version: v5.5.0
+[debug] Time:         Mon Oct 17 2016 21:07:00 GMT-0500 (COT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pina-dulce 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pina-dulce/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pina-dulce'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pina-dulce/uploads/-KUKXgBL9ViYcgpUQtCE?fileCount=246&message= 
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.5.0/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.0.7
+[debug] Platform:     darwin
+[debug] Node Version: v5.5.0
+[debug] Time:         Mon Oct 17 2016 21:25:13 GMT-0500 (COT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pina-dulce 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pina-dulce/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pina-dulce'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pina-dulce/uploads/-KUKar5BMtsgIpLlhVxC?fileCount=246&message= 
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.5.0/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.0.8
+[debug] Platform:     darwin
+[debug] Node Version: v5.5.0
+[debug] Time:         Mon Oct 17 2016 22:02:33 GMT-0500 (COT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pina-dulce 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pina-dulce/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pina-dulce'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pina-dulce/uploads/-KUKjP3rIJoBIPwQPquT?fileCount=246&message= 
+[debug] Error: write EPIPE
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at WriteWrap.afterWrite (net.js:763:14)
+[error] 
+[error] Error: Server Error. write EPIPE

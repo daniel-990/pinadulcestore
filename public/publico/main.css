@@ -1,0 +1,56 @@
+html{}
+body{
+	background-color: black;
+}
+h1,h2,p{
+	color: white;
+}
+
+.btn-menu{
+	position: fixed;
+    top: 0px;
+    margin: 30px;
+}
+
+.ancho-85{ width: 85% !important;}
+
+.bottom-100px{padding-bottom: 100px;}.bottom-50px{padding-bottom: 50px;}
+.bottom-40px{padding-bottom: 40px;}.bottom-20px{padding-bottom: 20px;}.bottom-10px{padding-bottom: 10px;}
+
+.top-200px{padding-top: 200px;}.top-156px{padding-top: 120px;}.top-120px{padding-top: 120px;}
+.top-100px{padding-top: 100px;}.top-50px{padding-top: 50px;}.top-40px{padding-top: 40px;}
+.top-20px{padding-top: 20px;}.top-10px{padding-top: 10px;}
+
+.font-size-17px{font-size: 17px !important;}.font-size-20px{font-size: 20px !important;}
+.font-size-30px{font-size: 30px !important;}.font-size-40px{font-size: 40px !important;}
+.font-size-50px{font-size: 50px !important;}.font-size-170px{font-size: 170px !important;}
+
+.indicator-item{
+	background-color: #26a69a !important;
+}
+.fondo-agua{background-color: #03b7c1 !important;}
+.fondo-col-logo{background-color: #23c9b8 !important;}
+.fondo-banner1{
+	background-image: url('./img/fondos/logo_dulce_pina.png');
+	background-size:  cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.fondo-banner2{
+	background-image: url('./img/fondos/dulce_pina_wall.jpg');
+	background-size:  cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.color-crema{
+	color: #EF6861;
+}
+
+.slogan{
+	padding: 50px;
+}
+.slogan li{
+
+}
+
+
